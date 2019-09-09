@@ -7,3 +7,11 @@
 - 助教：盧彥瑜
     - Mail：lufish61137@gmail.com
     - Ext.：3229
+
+## 課堂考試&期中期末考資訊
+- Test 1 - 10/07
+- Midterm Exam - 11/11
+- Test 2 - 12/09
+- Final Exam - 01/06
+
+## 
