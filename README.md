@@ -41,5 +41,20 @@
 4. Descriptive Statistics & Inferential Statistics (敘述統計 & 推論統計)
 - Descriptive Statistics:
     - Procedures and techniques designed to **__describe__** data.
-- Inferential Statistics:
+- Inferential Statistics:(預測)
     - Tools and techniques that **__help decision__** makes to draw inferences from a __set__ of data.
+    - Estimate & Hypothesis Test
+5. Qualitative Data & Quantitative Data
+    - Qualitative Data (類別型資料)
+        - Categorical
+    - Quantitative Data (Numerical & can be ranked) (數量型資料)
+        - Discrete (Countable)(間斷型資料)
+        - Continuous (Can be decimals)(連續型資料)
+6. Common Types of Scales
+    - 名目尺度(Normal Scale)：分類, 互斥且周延, 無順序、距離、原點
+    - 順序尺度(Ordinal Scale)：有等級順序, 但無法衡量等級間的差異大小, ex. 名次、排序、百分序
+    - 區間尺度(Interval Scale)：具分類、順序、距離, 但無原點, 區間或距離是否相等, ex. 滿意度、溫度、同意度、重要度
+    - 比例尺度(Ratio Scale)：具分類、順序、距離、原點, ex. 體重、身高、個數、分數
+    名目尺度|順序尺度|區間尺度|比例尺度
+    ----|----|----|----
+    1|2|3|4
