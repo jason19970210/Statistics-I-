@@ -36,6 +36,10 @@
 3. Terminology 專業用語
 - Variable 變數
 - Data 資料
-- Population 母體
+- Population 母體 (研究對象)
 - Sample 樣本
-4. 
+4. Descriptive Statistics & Inferential Statistics (敘述統計 & 推論統計)
+- Descriptive Statistics:
+    - Procedures and techniques designed to **__describe__** data.
+- Inferential Statistics:
+    - Tools and techniques that **__help decision__** makes to draw inferences from a __set__ of data.
