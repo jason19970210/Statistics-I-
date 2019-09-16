@@ -14,4 +14,6 @@
 - Test 2 - 12/09
 - Final Exam - 01/06
 
-## 
+## Topics
+1. What is __statistics__
+- The science of conducting studies to **collect**, **organize**, **summarize**, **analyze**, and draw **conclutions** from data.
