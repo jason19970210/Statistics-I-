@@ -1,0 +1,58 @@
+---
+title: "Career_Statics_HW1"
+output:
+  html_document: default
+  pdf_document: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## 說明
+
+30筆就業機會及其資料並進行分類、整理，透過適當的圖表呈現
+
+```{r library, message=F}
+library(plotly)
+library(dplyr)
+library(qcc) # pareto.chart()
+```
+
+
+```{r input}
+career <- read.csv("~/Desktop/Career_Statics/career.csv")
+#head(career)
+```
+
+## Plots
+
+```{r career}
+career %>% plot_ly(x = .$公司名稱, type = "histogram")
+career %>% plot_ly(labels = .$行業別, type = "pie")
+career %>% plot_ly(x = .$英語能力, type = "histogram")
+career %>% plot_ly(x = .$最低薪資, type = "histogram")
+
+python_count <- table(career$Python)[2]
+r_count <- table(career$R)[2]
+swift_count <- table(career$Swift)[2]
+linux_count <- table(career$Linux)[2]
+sketch_count <- table(career$Sketch)[2]
+git_count <- table(career$Git)[2]
+cpp_count <- table(career$Cpp)[2]
+db_count <- table(career$DB)[2]
+
+skill_df <- data.frame(
+  Skill = c("Python", "R", "Swift", "Linux", "Sketch", "Git", "Cpp", "DB"),
+  Count = c(python_count, r_count, swift_count, linux_count, sketch_count, git_count, cpp_count, db_count)
+)
+skill_df$Skill <- as.character(skill_df$Skill)
+plot_ly(x=skill_df$Skill, y=skill_df$Count, type = "bar")
+# histogram : represents the frequence distribution of continous variables / numerical data
+# bar chart : diagrammatic comparison of discrete variables / categorical data
+
+count <- c(5,1,5,7,1,2,5,4) # data from skill_df$Count
+names(count) <- c("Python", "R", "Swift", "Linux", "Sketch", "Git", "Cpp", "DB")
+# pareto.chart() from library `qcc`
+pareto.chart(count, las = 1) #`las = 1` makes label to show horizon
+```
