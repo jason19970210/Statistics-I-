@@ -5,15 +5,16 @@
     "dirty" : false,
     "encoding" : "UTF-8",
     "folds" : "",
-    "hash" : "1154950490",
+    "hash" : "2176837642",
     "id" : "E0BCB9B0",
-    "lastKnownWriteTime" : 1571642872,
-    "last_content_update" : 1571642872926,
-    "path" : "~/Desktop/Career_Statics/Career_Statics.Rmd",
+    "lastKnownWriteTime" : 1572263135,
+    "last_content_update" : 1572263135394,
+    "path" : "~/Desktop/四上/Statistics-I-/Career_Statics/Career_Statics.Rmd",
     "project_path" : "Career_Statics.Rmd",
     "properties" : {
-        "cursorPosition" : "50,29",
-        "scrollLine" : "38"
+        "cursorPosition" : "42,31",
+        "last_setup_crc32" : "F9015BC9bb338d19",
+        "scrollLine" : "26"
     },
     "read_only" : false,
     "read_only_alternatives" : [

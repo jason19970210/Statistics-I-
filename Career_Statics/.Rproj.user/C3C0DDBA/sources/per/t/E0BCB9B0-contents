@@ -1,5 +1,5 @@
 ---
-title: "Career_Statics_HW1"
+title: "Career_Statics_HW"
 output:
   html_document: default
   pdf_document: default
@@ -21,7 +21,7 @@ library(qcc) # pareto.chart()
 
 
 ```{r input}
-career <- read.csv("~/Desktop/Career_Statics/career.csv")
+career <- read.csv("https://raw.githubusercontent.com/jason19970210/Statistics-I-/master/Career_Statics/career.csv")
 #head(career)
 ```
 

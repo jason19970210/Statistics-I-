@@ -2,7 +2,7 @@ library(plotly)
 library(dplyr)
 
 
-career <- read.csv("~/Desktop/Career_Statics/career.csv")
+career <- read.csv("https://raw.githubusercontent.com/jason19970210/Statistics-I-/master/Career_Statics/career.csv")
 table(career$公司名稱)
 typeof(table(career$公司名稱))
 
